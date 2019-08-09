@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Juana Mason Port</title>
+    <link href="style0807.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <!--outer vertical edges -->
+                <div id="outerVerticalEdge">
+                    <!-- This is for the background-->
+                    <div id="backGround">
+                        <!--extreme top of menu box-->
+                        <div id="menuBox">
+                            <!--main  botton menu box-->
+                            <div style="background-color:#ffffff;height: 85%; color: #000000;">
+                                <h1 style="text-align: center;">Juana Mason</h1>
+                                <div class="buttonContainer"><button class="leftMenuButton" onclick="myAbout()">About</button></div>
+                                <div class="buttonContainer"><button class="leftMenuButton" onclick="myProjects()">Projects</button></div>
+                                <div class="buttonContainer"><button class="leftMenuButton" onclick="myContact()">Contact</button></div>
+                            </div>
+                            <div style="height: 5%;">&nbsp;</div>
+                        </div>
+                        <!--vertical border in main center box-->
+                        <div id="verticalBorderMainCenterBox">
+                            <div style="height: 5%;">&nbsp;</div>
+                            <!--this is where the main content goes-->
+                            <div style="text-align: center;">
+                                <div id="mainContent">&nbsp;</div>
+                                <!--This main content inside-->
+                                <!--Projects page-->
+                                <div id="myProjects" style="display: none;">
+                                    <img src="/oscar.png" alt="oscar" width="150" height="100">
+                                    <p>The user selects an answer, quiz keeps track of responses, selected correctly/incorrectly and how many are left
+                                    </p>
+
+
+
+                                    <div style="text-align: center; padding-top: 15px;">
+                                        <div class="project-tech"></div>
+
+                                        <a href="https://github.com/juanie" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+
+                                        <a href="https://juanie.github.io/" target="_blank" style="padding-top: 0px; padding-left: 20px;">Oscar Quiz</a>
+
+                                    </div>
+
+                                    <div class="tech">
+                                        <p>Made using:
+                                            <li><img src="https://img.icons8.com/color/48/000000/css3.png" width="30" height="30" alt="css" /></li>
+                                            <li><img src="https://img.icons8.com/color/48/000000/html-5.png" width="30" height="30" alt="html"></li>
+                                            <li><img src="https://img.icons8.com/color/48/000000/javascript.png" width="30" height="30" alt="javascript"></li>
+                                        </p>
+                                        <ul>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--about page-->
+                                <div id="myAbout" style="display: block;">
+                                    <img src="/shuri.jpeg" alt="About" width="200" height="150">
+                                    <br><b>Web Developer<br></b> pet mom to 3 fur babies.<br> Currently located in the New York City Tri-state area.<br> My interests include technology, music, movies and Broadway plays
+                                </div>
+                                <!--start of my contacts-->
+                                <div id="myContact" style="display: none;">
+                                    <img src="/shuri.jpeg" alt="shuri" width="200" height="150">
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://github.com/juanie/portfolio.git" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li><a href="https://www.linkedin.com/in/juanamason" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li><a href="mailto:juana@juanamason.com" target="_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                    <!-- where the main content ends-->
+                                </div>
+                                <!--end centering div-->
+                            </div>
+                            <!--end centering div-->
+                            <div style="height: 5%;">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
